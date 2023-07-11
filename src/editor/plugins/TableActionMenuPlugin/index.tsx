@@ -51,7 +51,7 @@ import {createPortal} from 'react-dom';
 
 import useModal from '../../hooks/useModal';
 import ColorPicker from '../../ui/ColorPicker';
-import invariant from '../../../shared/src/invariant';
+import invariant from '../../../shared/invariant';
 
 function computeSelectionCount(selection: GridSelection): {
   columns: number;

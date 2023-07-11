@@ -28,7 +28,7 @@ export const isDevPlayground = false
 
 export const DEFAULT_SETTINGS: Settings = {
   disableBeforeInput: false,
-  emptyEditor: true,
+  emptyEditor: false,
   isAutocomplete: false,
   isCharLimit: false,
   isCharLimitUtf8: false,
@@ -36,10 +36,10 @@ export const DEFAULT_SETTINGS: Settings = {
   isMaxLength: false,
   isRichText: true,
   measureTypingPerf: false,
-  shouldUseLexicalContextMenu: false,
+  shouldUseLexicalContextMenu: true,
   showNestedEditorTreeView: false,
   showTableOfContents: false,
-  showTreeView: true,
+  showTreeView: false,
   tableCellBackgroundColor: true,
   tableCellMerge: true,
 };

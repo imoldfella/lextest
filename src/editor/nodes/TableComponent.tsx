@@ -72,7 +72,7 @@ import {
   Rows,
   TableNode,
 } from './TableNode';
-import { IS_APPLE } from '../../shared/src/environment';
+import { IS_APPLE } from '../../shared/environment';
 
 
 type SortOptions = {type: 'ascending' | 'descending'; x: number};

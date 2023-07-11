@@ -26,7 +26,7 @@ import {$createTableNodeWithDimensions, TableNode} from '../nodes/TableNode';
 import Button from '../ui/Button';
 import {DialogActions} from '../ui/Dialog';
 import TextInput from '../ui/TextInput';
-import invariant from '../../shared/src/invariant';
+import invariant from '../../shared/invariant';
 
 export type InsertTableCommandPayload = Readonly<{
   columns: string;

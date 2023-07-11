@@ -93,7 +93,7 @@ import {
 import {InsertInlineImageDialog} from '../InlineImagePlugin';
 import {InsertPollDialog} from '../PollPlugin';
 import {InsertNewTableDialog, InsertTableDialog} from '../TablePlugin';
-import { IS_APPLE } from '../../../shared/src/environment';
+import { IS_APPLE } from '../../../shared/environment';
 
 
 const blockTypeToBlockName = {

@@ -17,7 +17,7 @@ import {useLexicalComposerContext} from '@lexical/react/LexicalComposerContext';
 import {$createParagraphNode, $createTextNode, $getRoot} from 'lexical';
 import * as React from 'react';
 import {useCallback, useEffect, useRef, useState} from 'react';
-import { IS_APPLE } from '../../../shared/src/environment';
+import { IS_APPLE } from '../../../shared/environment';
 
 
 const copy = (text: string | null) => {
